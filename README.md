@@ -2,7 +2,7 @@
 <img width="1200" height="475" alt="" src="" />
 </div>
 
-# Run and deploy your AI Studio app
+
 
 
 
