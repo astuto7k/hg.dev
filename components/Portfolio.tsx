@@ -24,6 +24,34 @@ export const Portfolio: React.FC = () => {
 
   const myWork: Project[] = [
     {
+      title: "Dead Sky",
+      type: "UI/UX",
+      platform: "Roblox",
+      img: "https://i.ibb.co.com/dwvPZ0WS/Explorer-Game1.png",
+      images: [
+        "https://i.ibb.co.com/dwvPZ0WS/Explorer-Game1.png",
+        "https://i.ibb.co.com/bjMM8sQj/Explorer-Game2.png",
+        "https://i.ibb.co.com/4ng9NkZB/Explorer-Game3.png",
+        "https://i.ibb.co.com/GQKgZc75/Explorer-Game4.png",
+        "https://i.ibb.co.com/60PDcGcm/Explorer-Game5.png",
+        "https://i.ibb.co.com/x8JHHKMR/Explorer-Game6.png"
+      ],
+      desc: "Immersive visual atmosphere and interface systems for an atmospheric exploration and survival game."
+    },
+    {
+      title: "Anime Royale",
+      type: "UI/UX",
+      platform: "Roblox",
+      img: "https://i.ibb.co.com/xqBm6cM5/Anime-Game3.png",
+      images: [
+        "https://i.ibb.co.com/xqBm6cM5/Anime-Game3.png",
+        "https://i.ibb.co.com/k2VxWqqV/Anime-Game4.png",
+        "https://i.ibb.co.com/cSw2MJ8r/Anime-Game5.png",
+        "https://i.ibb.co.com/Z1HCvrc1/Anime-Game6.png"
+      ],
+      desc: "Stylized layout inspired by modern anime trends, featuring fast, responsive animations and polished transitions."
+    },
+    {
       title: "Steal a Brainrot",
       type: "UI/UX",
       platform: "Roblox",
@@ -38,19 +66,18 @@ export const Portfolio: React.FC = () => {
       desc: "Complete interface (HUD and Menus) focused on player retention and visual clarity. I implemented dynamic inventory systems and high-impact purchase feedback."
     },
     {
-      title: "Dead Sky",
-      type: "UI/UX",
+      title: "100vs1 Gorilla",
+      type: "Animation",
       platform: "Roblox",
-      img: "https://i.ibb.co.com/dwvPZ0WS/Explorer-Game1.png",
+      img: "https://i.ibb.co.com/QF5z3SMq/Special-Comissions1.png",
       images: [
-        "https://i.ibb.co.com/dwvPZ0WS/Explorer-Game1.png",
-        "https://i.ibb.co.com/bjMM8sQj/Explorer-Game2.png",
-        "https://i.ibb.co.com/4ng9NkZB/Explorer-Game3.png",
-        "https://i.ibb.co.com/GQKgZc75/Explorer-Game4.png",
-        "https://i.ibb.co.com/60PDcGcm/Explorer-Game5.png",
-        "https://i.ibb.co.com/x8JHHKMR/Explorer-Game6.png"
+        "https://i.ibb.co.com/QF5z3SMq/Special-Comissions1.png",
+        "https://i.ibb.co.com/nNNKMj7J/Special-Comissions2.png",
+        "https://i.ibb.co.com/4w88LXLr/Special-Comissions3.png",
+        "https://i.ibb.co.com/zhSd22xP/Special-Comissions4.png",
+        "https://i.ibb.co.com/qFcNgGg0/Special-Comissions5.png"
       ],
-      desc: "Immersive visual atmosphere and interface systems for an atmospheric exploration and survival game."
+      desc: "Dynamic character animations and advanced rigging solutions for intense, large-scale combat experiences."
     },
     {
       title: "Brainrot Island",
@@ -67,33 +94,6 @@ export const Portfolio: React.FC = () => {
       ],
       desc: "Expert creation of environment and combat visual effects, designed to elevate immersion and provide satisfying visual feedback."
     },
-    {
-      title: "Anime Royale",
-      type: "UI/UX",
-      platform: "Roblox",
-      img: "https://i.ibb.co.com/xqBm6cM5/Anime-Game3.png",
-      images: [
-        "https://i.ibb.co.com/xqBm6cM5/Anime-Game3.png",
-        "https://i.ibb.co.com/k2VxWqqV/Anime-Game4.png",
-        "https://i.ibb.co.com/cSw2MJ8r/Anime-Game5.png",
-        "https://i.ibb.co.com/Z1HCvrc1/Anime-Game6.png"
-      ],
-      desc: "Stylized layout inspired by modern anime trends, featuring fast, responsive animations and polished transitions."
-    },
-    {
-      title: "100vs1 Gorilla",
-      type: "Animation",
-      platform: "Roblox",
-      img: "https://i.ibb.co.com/QF5z3SMq/Special-Comissions1.png",
-      images: [
-        "https://i.ibb.co.com/QF5z3SMq/Special-Comissions1.png",
-        "https://i.ibb.co.com/nNNKMj7J/Special-Comissions2.png",
-        "https://i.ibb.co.com/4w88LXLr/Special-Comissions3.png",
-        "https://i.ibb.co.com/zhSd22xP/Special-Comissions4.png",
-        "https://i.ibb.co.com/qFcNgGg0/Special-Comissions5.png"
-      ],
-      desc: "Dynamic character animations and advanced rigging solutions for intense, large-scale combat experiences."
-    },
   ];
 
   const animationGifs = [
@@ -106,26 +106,26 @@ export const Portfolio: React.FC = () => {
   ];
 
   const principalGames = [
-    
+
     { title: "Dead Sky", type: "UI/UX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/661pd10/Deadsky.png", url: "https://www.roblox.com/games/132651897588092/Dead-Sky" },
-    
-    
-     { title: "Anime Royale", type: "UI/UX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/d0Pxf2gP/animeroyale.png", url: "https://www.roblox.com/games/16347800591/Anime-Royale" },
-     { title: "Steal a Brainrot", type: "UI/UX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/Cp3M7tc3/robabrainrot.png", url: "https://www.roblox.com/games/109983668079237/Steal-a-Brainrot" },
-    
-     { title: "Break a Lucky Block!", type: "VFX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co/5gm6zZ2r/no-Filter.jpg", url: "https://www.roblox.com/games/124311897657957/Break-a-Lucky-Block" },
-    
-     { title: "FRUITS VS BRAINROTS", type: "Animation", platform: "Fortinite", btn: "Open Fortnite", img: "https://i.ibb.co/vxqMtW2P/landscape-comp.jpg", url: "https://fortnite.gg/island?code=4554-4413-1515" },
-    
-     { title: "Dead Sails", type: "Systems", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/7JD05kKg/deadails.png", url: "https://www.roblox.com/games/85832836496852/Dead-Sails" },
-    
-     { title: "Labubu Horror", type: "UI/UX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/svvhcD85/labubu.png", url: "https://www.roblox.com/games/123755963456017/Labubu-Horror" },
-    
-     { title: "100 Players vs 1 Gorilla", type: "Animation", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/LT1ytQJ/100vs1gorila.png", url: "https://www.roblox.com/games/114312759142223/100-Players-vs-1-Gorilla" },
-    
-     { title: "My Brainrot Island", type: "VFX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/99cj5QKB/brainrotisland.png", url: "https://www.roblox.com/games/122345408677744/My-Brainrot-Island" },
-    
-     { title: "Brainrot Garden", type: "Systems", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/YFVyf0BW/Brainrotgarden.png", url: "https://www.roblox.com/games/132651897588092/Dead-Sky" }
+
+    { title: "Anime Royale", type: "UI/UX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/d0Pxf2gP/animeroyale.png", url: "https://www.roblox.com/games/16347800591/Anime-Royale" },
+
+    { title: "Steal a Brainrot", type: "UI/UX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/Cp3M7tc3/robabrainrot.png", url: "https://www.roblox.com/games/109983668079237/Steal-a-Brainrot" },
+
+    { title: "Break a Lucky Block!", type: "VFX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co/5gm6zZ2r/no-Filter.jpg", url: "https://www.roblox.com/games/124311897657957/Break-a-Lucky-Block" },
+
+    { title: "FRUITS VS BRAINROTS", type: "Animation", platform: "Fortinite", btn: "Open Fortnite", img: "https://i.ibb.co/vxqMtW2P/landscape-comp.jpg", url: "https://fortnite.gg/island?code=4554-4413-1515" },
+
+    { title: "Dead Sails", type: "Systems", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/7JD05kKg/deadails.png", url: "https://www.roblox.com/games/85832836496852/Dead-Sails" },
+
+    { title: "Labubu Horror", type: "UI/UX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/svvhcD85/labubu.png", url: "https://www.roblox.com/games/123755963456017/Labubu-Horror" },
+
+    { title: "100 Players vs 1 Gorilla", type: "Animation", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/LT1ytQJ/100vs1gorila.png", url: "https://www.roblox.com/games/114312759142223/100-Players-vs-1-Gorilla" },
+
+    { title: "My Brainrot Island", type: "VFX", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/99cj5QKB/brainrotisland.png", url: "https://www.roblox.com/games/122345408677744/My-Brainrot-Island" },
+
+    { title: "Brainrot Garden", type: "Systems", platform: "Roblox", btn: "Open Roblox", img: "https://i.ibb.co.com/YFVyf0BW/Brainrotgarden.png", url: "https://www.roblox.com/games/132651897588092/Dead-Sky" }
   ];
 
   const nextWork = () => setWorkIndex((prev) => (prev + 1) % (myWork.length - 2));
