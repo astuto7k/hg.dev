@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { ChevronRight, ChevronLeft, ExternalLink, X } from 'lucide-react';
 
@@ -343,7 +344,7 @@ export const Portfolio: React.FC = () => {
         <style dangerouslySetInnerHTML={{
           __html: `
           @keyframes marquee-fast { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-          .animate-marquee-fast { animation: marquee-fast 24s linear infinite; }
+          .animate-marquee-fast { animation: marquee-fast 15s linear infinite; }
           .custom-scrollbar::-webkit-scrollbar {
             width: 4px;
           }
